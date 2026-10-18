@@ -67,7 +67,7 @@ graph TD
 | LLMs | Groq (Llama 3.3 70B) via **Portkey** gateway |
 | Guardrails | NeMo Guardrails |
 | Vector DB | Qdrant Cloud |
-| Reranking | FlashRank (local, zero-latency) |
+| Reranking | FlashRank (local, zero-latency) jina |
 | Embeddings | Gemini `gemini-embedding-2-preview` (3072-dim) |
 | Document Parsing | pypdf + pdfplumber (local, no OCR service) |
 | Observability | Pydantic Logfire + LangSmith |
